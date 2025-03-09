@@ -47,10 +47,10 @@ export const LandingPageComponent = () => {
       </p>
       <button className="demo-btn2">Request a Demo</button>
       <div className="image-container">
-        <img src="public/Hero video.png" alt="Hero Video" />
+        <img src="/Hero video.png" alt="Hero Video" />
       </div>
       <div class="partner-img-div">
-        <img src="public/partners.png" alt="" />
+        <img src="/partners.png" alt="" />
       </div>
     </>
   );
