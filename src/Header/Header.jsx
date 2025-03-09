@@ -8,7 +8,7 @@ export const HeaderComponent = () => {
         <header>
             <nav>
                 <div className="header-left-div">
-                    <img src="public/Group 20.png" alt="Logo" />        
+                    <img src="/Group 20.png" alt="Logo" />        
                </div>
                 <div className={`header-center-div ${menuOpen ? "open" : ""}`}>
                     <ul>
