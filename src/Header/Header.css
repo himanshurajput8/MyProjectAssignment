@@ -74,7 +74,7 @@ li i {
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .header-center-div {
     display: none;
     position: absolute;
