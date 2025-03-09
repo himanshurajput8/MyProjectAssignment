@@ -76,7 +76,8 @@ li i {
 @media (max-width: 768px) {
     nav{
         padding: 5px;
-        width: 50%;
+        width: 100%;
+        margin-left: 0px;
     }
   .header-center-div {
     display: none;
