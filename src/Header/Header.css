@@ -85,11 +85,11 @@
   /* -------- Mobile Responsive Styles -------- */
   @media (max-width: 768px) {
     header{
-        width: 420px;
+        width: 435px;
     }
     nav {
       padding: 10px;
-      width: 420px;
+      width: 435px;
     }
   
     /* Centering logo and menu */
