@@ -1,5 +1,5 @@
 import React, { useState } from "preact/compat";
-import "./Faq.css";
+import "./faq.css";
 
 export const FaqQuestionComp = () => {
   const [openIndex, setOpenIndex] = useState(null);
