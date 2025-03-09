@@ -79,16 +79,17 @@
     display: none;
     font-size: 24px;
     cursor: pointer;
+    margin-left: 5px;
   }
   
   /* -------- Mobile Responsive Styles -------- */
   @media (max-width: 768px) {
     header{
-        width: 410px;
+        width: 420px;
     }
     nav {
       padding: 10px;
-      width: 410px;
+      width: 420px;
     }
   
     /* Centering logo and menu */
