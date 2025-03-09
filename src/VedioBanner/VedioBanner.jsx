@@ -5,7 +5,7 @@ export const VedioBannerComp = () => {
   return (
     <>
       <div className="image-banner-container">
-        <img src="public/Banner.png" alt="" />
+        <img src="/Banner.png" alt="" />
       </div>
     </>
   );

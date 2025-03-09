@@ -15,7 +15,7 @@ export const OttMediaComponent = () => {
           <p>easy step and let it drive organic view and generate leads.</p>
         </div>
         <div className="ott-img-container">
-          <img src="public/Video frame.png" alt="" />
+          <img src="/Video frame.png" alt="" />
         </div>
       </div>
     </>

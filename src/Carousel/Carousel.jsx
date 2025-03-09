@@ -2,10 +2,10 @@ import React, { useState, useEffect } from "react";
 import "./Carousel.css";
 
 const images = [
-  "public/Agrora.png",
-  "public/Ignition.png",
-  "public/Azuga.png",
-  "public/Gennext.png",
+  "/Agrora.png",
+  "/Ignition.png",
+  "/Azuga.png",
+  "/Gennext.png",
 ];
 
 export const Carousel = () => {

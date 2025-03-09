@@ -7,12 +7,12 @@ export const MediaFeatureComp = () => {
       <h2>Explore</h2>
       <h1>Media + Features</h1>
       <div className="media-offering-div">
-        <img src="public/Offering.png" alt="Media Offering" />
+        <img src="/Offering.png" alt="Media Offering" />
       </div>
       <div class="inner-div-1">
         <div>
           <span>
-            <img src="public/Icon (5).png" alt="" />
+            <img src="/Icon (5).png" alt="" />
           </span>{" "}
           <h1>Media Library</h1>
           <li>
@@ -24,7 +24,7 @@ export const MediaFeatureComp = () => {
         </div>
         <div>
           <span>
-            <img src="public/Icon (4).png" alt="" />
+            <img src="/Icon (4).png" alt="" />
           </span>
           <h1>Automated process</h1>
           <li>AI-generated metadata</li>
@@ -36,7 +36,7 @@ export const MediaFeatureComp = () => {
         </div>
         <div>
           <span>
-            <img src="public/Icon (3).png" alt="" />
+            <img src="/Icon (3).png" alt="" />
           </span>
           <h1>branding & Personalization</h1>
           <li>Use your logo and accent color; choose light or dark themes</li>
@@ -49,7 +49,7 @@ export const MediaFeatureComp = () => {
       <div class="inner-div-2">
         <div>
           <span>
-            <img src="public/Icon (2).png" alt="" />
+            <img src="/Icon (2).png" alt="" />
           </span>
           <h1>Vedio Players</h1>
           <li>
@@ -62,7 +62,7 @@ export const MediaFeatureComp = () => {
         </div>
         <div>
           <span>
-            <img src="public/Icon.png" alt="" />
+            <img src="/Icon.png" alt="" />
           </span>
           <h1>Deep analytics</h1>
           <li>Comprehensive analytics on your media engagement</li>
@@ -71,7 +71,7 @@ export const MediaFeatureComp = () => {
         </div>
         <div>
           <span>
-            <img src="public/Icon (1).png" alt="" />
+            <img src="/Icon (1).png" alt="" />
           </span>
           <h1>boost your pipeline</h1>
           <li>CTAs linked to MAP/CRM</li>
@@ -79,7 +79,7 @@ export const MediaFeatureComp = () => {
           <li>Capture pipeline and engagement data via CRM (HubSpot)</li>
         </div>
       </div>
-      <img className="pricing-card" src="public/Pricing card.png" alt="" />
+      <img className="pricing-card" src="/Pricing card.png" alt="" />
     </div>
   );
 };

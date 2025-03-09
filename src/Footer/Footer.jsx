@@ -42,11 +42,11 @@ export const FooterComponent = () => {
           </ul>
 
           <div class="ccpa-container">
-            <img src="public/bsi.png" alt="" />
-            <img src="public/bsi.png" alt="" />
-            <img src="public/bsi.png" alt="" />
-            <img src="public/gdpr.png" alt="" />
-            <img src="public/ccpa.png" alt="" />
+            <img src="/bsi.png" alt="" />
+            <img src="/bsi.png" alt="" />
+            <img src="/bsi.png" alt="" />
+            <img src="/gdpr.png" alt="" />
+            <img src="/ccpa.png" alt="" />
           </div>
         </div>
 
@@ -57,14 +57,14 @@ export const FooterComponent = () => {
             <input type="text" placeholder="Enter your email" />
           </div>
           <div className="g2-img-container">
-            <img src="public/Frame 1000004479.png" alt="" />
+            <img src="/Frame 1000004479.png" alt="" />
             <p>Read our review on G2.com</p>
           </div>
           <div className="icon-div">
-            <img src="public/linkdin.png" alt="" />
-            <img src="public/facebook.png" alt="" />
-            <img src="public/twitter.png" alt="" />
-            <img src="public/instagram.png" alt="" />
+            <img src="/linkdin.png" alt="" />
+            <img src="/facebook.png" alt="" />
+            <img src="/twitter.png" alt="" />
+            <img src="/instagram.png" alt="" />
           </div>
         </div>
       </div>

@@ -52,7 +52,7 @@ export const ElevateEngageComp = () => {
         </div>
 
         <div className="ai-img">
-          <img src="public/Right.png" alt="AI-powered media" />
+          <img src="/Right.png" alt="AI-powered media" />
         </div>
       </div>
     </>
