@@ -75,6 +75,9 @@ li i {
 }
 
 @media only screen and (max-width: 600px) {
+    nav{
+        padding: 0px;
+    }
   .header-center-div {
     display: none;
     position: absolute;
