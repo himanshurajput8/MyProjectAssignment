@@ -1,0 +1,46 @@
+/* Main Container - Center Text */
+.ott-container {
+  display: flex;
+  justify-content: center; /* Horizontally Center */
+  align-items: center; /* Vertically Center */
+  text-align: center; /* टेक्स्ट को सेंटर करें */
+  width: 100%;
+  flex-direction: column;
+  line-height: 30px;
+  margin-top: 100px;
+  /* border: solid; */
+}
+
+/* Text Content */
+.ott-container div {
+  max-width: 600px;
+}
+
+.ott-container h3 {
+  font-size: 22px;
+  color: #ff5733;
+}
+
+.ott-container h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.ott-container p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+.ott-img-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* border: solid; */
+  margin-top: 80px;
+}
+@media (max-width: 768px) {
+  .ott-img-container img {
+    width: 95%;
+  }
+}

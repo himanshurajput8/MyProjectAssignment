@@ -1,0 +1,89 @@
+/* FAQ Container - Page Center */
+.faq-container {
+  width: 70%;
+  margin: auto;
+  margin-top: 100px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+/* FAQ Item Styling */
+.faq-item {
+  padding: 25px;
+  transition: background-color 0.3s ease-in-out;
+}
+.faq-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.faq-heading p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #e4875d;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+/* Hover Effect */
+.faq-item:hover {
+  background-color: #f9f9f9;
+}
+
+/* FAQ Header - Flexbox for Alignment */
+.faq-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+}
+
+/* FAQ Question */
+.faq-header h3 {
+  margin: 0;
+  flex: 1;
+}
+
+/* Plus/Minus Icon */
+.faq-icon {
+  font-size: 18px;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+
+  /* Border Styling */
+  border: 1px solid #ccc;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FAQ Answer */
+.faq-answer {
+  padding: 10px;
+  margin: 0;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #555;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .faq-container {
+    width: 100%;
+  }
+  .faq-item {
+    width: 100%;
+    padding: 25px 5px;
+  }
+}

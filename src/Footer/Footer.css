@@ -1,0 +1,148 @@
+.inner-footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0px 120px;
+  /* border: solid; */
+}
+ul li {
+  list-style-type: none;
+  line-height: 30px;
+}
+.footer-contact-container {
+  width: 30%;
+  line-height: 50px;
+}
+.contact-us-heading {
+  border: 1px solid #ccc;
+  padding: 0px 20px;
+  border-radius: 20px;
+}
+
+.icon-div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.icon-div img {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+}
+/*  */
+/* G2 Image Container (Fixed Size) */
+.g2-img-container {
+  position: relative;
+  display: flex;
+  justify-content: center; /* Center Horizontally */
+  align-items: center; /* Center Vertically */
+  width: 100%; /* Set Fixed Width */
+  height: 100px; /* Set Fixed Height */
+  margin: auto; /* Centering */
+  border: 1px solid #ccc;
+  overflow: hidden; /* Extra Content Hide करने के लिए */
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+/* Image को छोटा करें लेकिन Container का साइज न बदले */
+.g2-img-container img {
+  width: 50px; /* इमेज छोटी होगी लेकिन Center में रहेगी */
+  height: auto;
+  display: block;
+}
+
+/* Text को Image के ऊपर लाने के लिए */
+.g2-img-container p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+  width: 80%;
+}
+.footer-container {
+  position: relative;
+}
+.ccpa-container {
+  width: 52%;
+  /* border: solid; */
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+ul li:first-child {
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.ul-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 10px;
+}
+.copyright-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 120px;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+  width: 84%;
+  border: 1px solid #ccc;
+}
+.copyright-div ul {
+  display: flex;
+  gap: 20px;
+}
+@media (max-width: 768px) {
+  .copyright-div {
+    flex-direction: column;
+    margin-left: 0px;
+    width: 100%;
+    padding: 0px;
+    margin-top: 80px;
+  }
+  .copyright-div ul {
+    flex-direction: column;
+  }
+  .ul-container {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .inner-footer-container {
+    width: 100%;
+    padding: 0px;
+    margin-top: 50px;
+    gap: 2px;
+  }
+  .footer-contact-container {
+    width: 70%;
+  }
+  .icon-div img {
+    padding: 0px;
+  }
+  .g2-img-container p {
+    padding: 0px;
+  }
+  .ccpa-container {
+    width: 52%;
+    bottom: 270px;
+    left: 0px;
+    margin-left: 0px;
+    gap: 5px;
+  }
+  .ccpa-container img {
+    width: 70px;
+  }
+}

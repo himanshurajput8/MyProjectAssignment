@@ -1,0 +1,127 @@
+.testimonial-container {
+  background-color: #e4875d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 998px;
+  width: 100%;
+  padding: 80px 120px;
+  color: white;
+  position: relative;
+}
+
+.testimonial-container-inner {
+  width: 1200px;
+  height: 716px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.testimonials-div {
+  width: 1036px;
+  height: 716px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.testimonials-div h1 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 110%;
+  letter-spacing: -1.5px;
+}
+
+.testimonials-div img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid white;
+  display: block;
+  margin: 20px auto;
+}
+
+.testimonials-div p {
+  font-size: 18px;
+  line-height: 1.5;
+  max-width: 900px;
+}
+
+.request-demo-btn {
+  background: white;
+  color: #e87e5c;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.request-demo-btn:hover {
+  background: #ffdac4;
+}
+
+/* Navigation Buttons */
+.nav-button {
+  background: white;
+  border: none;
+  font-size: 24px;
+  color: #e87e5c;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nav-button:hover {
+  background: #ffdac4;
+}
+
+/* Left and Right Button Positions */
+.nav-button:first-of-type {
+  left: 40px;
+}
+
+.nav-button:last-of-type {
+  right: 40px;
+}
+
+/* Pagination Dots */
+.pagination {
+  display: flex;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.pagination-dot {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.pagination-dot.active {
+  opacity: 1;
+  width: 12px;
+  height: 12px;
+}
