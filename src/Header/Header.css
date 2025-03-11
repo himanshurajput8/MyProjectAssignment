@@ -84,7 +84,7 @@
   /* -------- Mobile Responsive Styles -------- */
   @media only screen and (max-width: 768px) {
     header{
-        width: 375px;
+        width: 100%;
         padding: 8px;
     }
     nav {
